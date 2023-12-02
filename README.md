@@ -1,4 +1,6 @@
-# 🌐 API REST e Implementação RESTful
+# 🌐 API REST 
+## Implementação RESTful
+
  ![API REST] 
  
  API REST, também chamada de API RESTful, é uma interface de programação de aplicações (API ou API web) que segue as restrições do estilo de arquitetura REST. REST é a sigla em inglês para “Representational State Transfer”, que em português significa transferência de estado representacional. 
@@ -13,21 +15,23 @@
  
  Os verbos HTTP, também conhecidos como métodos HTTP, indicam a ação a ser executada para um dado recurso. Os principais métodos HTTP são:
  
-  **GET**: Solicita a representação de um recurso específico.
+*  **GET**: Solicita a representação de um recurso específico.
  
-  **HEAD**: Solicita uma resposta de forma idêntica ao método GET, porém sem conter o corpo da resposta.
+*  **HEAD**: Solicita uma resposta de forma idêntica ao método GET, porém sem conter o corpo da resposta.
   
-   **POST**: Utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
+*   **POST**: Utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
 
- **PUT**: Substitui todas as atuais representações do recurso de destino pela carga de dados da requisição, pedido específico. - **DELETE**: Remove um recurso específico. 
+* **PUT**: Substitui todas as atuais representações do recurso de destino pela carga de dados da requisição, pedido específico.
+
+*  **DELETE**: Remove um recurso específico. 
  
- **CONNECT**: Estabelece um túnel para o servidor identificado pelo recurso de destino. 
+* **CONNECT**: Estabelece um túnel para o servidor identificado pelo recurso de destino. 
  
- **OPTIONS**: Descreve as opções de comunicação para o recurso de destino. 
+* **OPTIONS**: Descreve as opções de comunicação para o recurso de destino. 
  
- **TRACE**: Executa um teste de chamada loop-back junto com o caminho para o recurso de destino. 
+* **TRACE**: Executa um teste de chamada loop-back junto com o caminho para o recurso de destino. 
  
- **PATCH**: Utilizado para aplicar modificações parciais em um recurso.
+* **PATCH**: Utilizado para aplicar modificações parciais em um recurso.
  
  ## Códigos de Status HTTP 
  
@@ -35,15 +39,15 @@
  
  ![Códigos de Status HTTP] 
  
- **1xx (Informacional)**: Indica que a solicitação foi recebida e o processo está continuando. 
+* **1xx (Informacional)**: Indica que a solicitação foi recebida e o processo está continuando. 
  
- **2xx (Sucesso)**: Indica que a ação foi recebida, compreendida e aceita com sucesso. 
+* **2xx (Sucesso)**: Indica que a ação foi recebida, compreendida e aceita com sucesso. 
  
- **3xx (Redirecionamento)**: Indica que uma ação adicional deve ser tomada para completar a solicitação. 
+* **3xx (Redirecionamento)**: Indica que uma ação adicional deve ser tomada para completar a solicitação. 
  
- **4xx (Erro do Cliente)**: Indica que a solicitação contém uma sintaxe incorreta ou não pode ser atendida. 
+* **4xx (Erro do Cliente)**: Indica que a solicitação contém uma sintaxe incorreta ou não pode ser atendida. 
  
- **5xx (Erro do Servidor)**: Indica que o servidor falhou ao atender uma solicitação aparentemente válida.
+* **5xx (Erro do Servidor)**: Indica que o servidor falhou ao atender uma solicitação aparentemente válida.
  
  ## Diferenças entre REST e RESTFul
 
