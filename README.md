@@ -78,3 +78,8 @@
  **Padronização da API**:
  
  Isso inclui a divisão de funcionalidades por recursos, padronização de URIs e parâmetros, e melhor aproveitamento de recursos do protocolo HTTP.
+
+
+ # Autor
+
+Nayara Cabral 01565992
