@@ -6,12 +6,12 @@
  
  API REST, também chamada de API RESTful, é uma interface de programação de aplicações (API ou API web) que segue as restrições do estilo de arquitetura REST. Em uma API RESTful, os recursos são representados como URI (Identificadores Uniformes de Recursos), e a API utiliza métodos HTTP como GET, POST, PUT, DELETE para realizar operações nesses recursos.
 
- ##Exemplo
+ ## Exemplo
  
  Imagine que você está em um restaurante. O garçom é como uma API. Você, o cliente, pede algo do menu (faz uma solicitação). O garçom leva seu pedido para a cozinha e volta com sua comida (a resposta). Nesse cenário, a cozinha é o sistema de back-end. Agora, imagine que este restaurante é um “restaurante RESTful”. Aqui, você tem que fazer pedidos de uma maneira específica, usando certas palavras e seguindo certas regras (isso é o que chamamos de “restrições REST”). Se você seguir essas regras, o garçom (API) entenderá seu pedido e trará sua comida corretamente.
  
 
-##Princípios básicos do API REST:
+## Princípios básicos do API REST:
 
 * Arquitetura cliente-servidor: A API REST separa claramente as responsabilidades entre o cliente e o servidor.
 
